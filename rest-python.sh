@@ -11,7 +11,7 @@ WORKDIR=~/rest-python
 echo "==================Phase 1 of 2: set environment=========================="
 sudo apt update
 cd ~
-sudo apt install vim git build-essential python
+sudo apt install vim git build-essential python python-setuptools
 sudo easy_install web.py
 mkdir -p $WORKDIR
 cd $WORKDIR
